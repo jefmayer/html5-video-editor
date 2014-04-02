@@ -7,9 +7,11 @@
 })(jQuery, window, document);
 
 var App = function App() {
-			
+	
+	var editor;
+	
 	this.init = function() {
-		// var gallery = $('.ra-video-gallery').videogallery();
+		editor = $('#ra-video-editor').videoeditor();
 	};
 	
 	
