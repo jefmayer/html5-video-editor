@@ -31,6 +31,13 @@
 			font-weight: normal;
 		}
 		
+		h1 {
+			color: #fff;
+			font-family: "SST W15 Roman",sans-serif;
+			-webkit-font-smoothing: antialiased;
+			font-weight: normal;
+		}
+		
 		* {
 			margin: 0;
 			padding: 0;
@@ -122,10 +129,12 @@
 	</head>
 	
 	<body>
+		<h1>This is SST W15 Roman</h1>
 		<div id="ra-video-editor"></div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/vendor/iosslider.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 		<script type="text/javascript" src="js/jquery.videoeditor.js"></script>
+		<script type="text/javascript" src="//fast.fonts.com/jsapi/853bfcd2-9633-4789-ab90-6ec62910a568.js"></script>
 	</body>
 </html>
